@@ -87,8 +87,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 ## 👨‍💻 Author
 
 - Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [@yourusername](https://github.com/arwinux)
 
 ## 🙏 Acknowledgements
 
