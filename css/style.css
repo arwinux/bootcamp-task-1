@@ -165,10 +165,6 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .request-card__slide:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
 
 }
 
