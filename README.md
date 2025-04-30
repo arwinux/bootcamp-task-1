@@ -35,20 +35,17 @@ The dashboard displays multiple request cards that show:
 - User information with avatar
 - Action button
 
-## 🌟 Live Demo
-
-[View Live Demo](https://yourusername.github.io/request-card-dashboard)
 
 ## 💻 Installation and Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/request-card-dashboard.git
+   git clone https://github.com/arwinux/bootcamp-task-1.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd request-card-dashboard
+   cd bootcamp-task-1
    ```
 
 3. Open `index.html` in your browser or use a live server extension.
@@ -78,7 +75,7 @@ request-card-dashboard/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/request-card-dashboard/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/arwinux/request-card-dashboard/issues).
 
 ## 📝 License
 
@@ -87,7 +84,8 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 ## 👨‍💻 Author
 
 - Your Name
-- GitHub: [@yourusername](https://github.com/arwinux)
+- GitHub: [@arwinux](https://github.com/arwinux)
+- Telegram: [@arwinux](https://t.me/arwinuxrepo)
 
 ## 🙏 Acknowledgements
 
