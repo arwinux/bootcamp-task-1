@@ -83,7 +83,6 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 ## 👨‍💻 Author
 
-- Your Name
 - GitHub: [@arwinux](https://github.com/arwinux)
 - Telegram: [@arwinux](https://t.me/arwinuxrepo)
 
