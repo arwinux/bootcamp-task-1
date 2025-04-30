@@ -25,6 +25,7 @@ html {
 body {
   font-size: 1.8rem;
   background: linear-gradient(to right, #56ccf2, #2f80ed) center center;
+
 }
 
 h1 {
@@ -60,7 +61,7 @@ p {
   outline: 0;
   background: linear-gradient(to right, #5433ff, #2f80ed, #00c6ff);
   color: white;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
   cursor: pointer;
@@ -81,45 +82,49 @@ p {
 }
 
 .container {
+  padding: 2rem;
   max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  padding: 0;
 }
 
 .cards {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.card-slides {
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-
 }
 
 .cards__title {
   margin-top: 4rem;
   margin-bottom: 4rem;
   font-size: 2.2rem;
+  color: white;
+}
+
+.request-card__slides {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  justify-content: center;
 }
 
 .request-card__slide {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
-
+  justify-content: center;
   border-radius: 2rem;
-  margin: 1rem;
   padding: 2.5rem 2rem;
   transition: all 0.3s linear;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px white;
   backdrop-filter: blur(5px);
-  ;
+
+
 }
 
 .request-card__slide:hover {
@@ -128,11 +133,57 @@ p {
   transform: none;
 }
 
+
 @media screen and (min-width:768px) {
+  .request-card__slides {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media screen and (min-width:896px) {
+  .request-card__slides {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .request-card__slides {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .request-card__slide:hover {
     transform: scale(1.1);
+    cursor: pointer;
   }
 }
+
+@media screen and (min-width:1152px) {
+  .request-card__slides {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .request-card__slide:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (min-width:1280px) {
+  .request-card__slides {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .request-card__slide:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+}
+
 
 
 /* Request Header */
@@ -154,29 +205,27 @@ p {
   color: var(--color-accent);
 }
 
-/* Request Content */
-.request-card__content {
-  display: flex;
-
-}
-
+/* Request Detail */
 .request-card__detail {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.request-card__user {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-weight: 400;
-  margin-top: 1.5rem;
-}
-
 /* Request Footer */
 .request-card__footer {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+
+.request-card__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
